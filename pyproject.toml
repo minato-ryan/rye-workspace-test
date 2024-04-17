@@ -1,0 +1,18 @@
+[project]
+name = "rye-workspace-test"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "minato-ryan", email = "147117273+minato-ryan@users.noreply.github.com" }
+]
+dependencies = []
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[tool.rye]
+managed = true
+virtual = true
+dev-dependencies = []
+
+[tool.rye.workspace]
+members = ["monosay", "monosay-hi"]
