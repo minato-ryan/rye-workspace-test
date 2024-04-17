@@ -1,4 +1,4 @@
-from monosay_hi._lowlevel import hello
+from monosay import hello
 
 def say_hi():
     print(hello("hi"))
